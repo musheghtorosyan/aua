@@ -1,0 +1,247 @@
+:root {
+    --black: #000000;
+    --blue: #4F46CA;
+}
+.montserrat-400 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.montserrat-600 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.montserrat-900 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+body {
+    background-color: white;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header {
+    background-color: var(--blue);
+    padding-bottom: 40px;
+}
+
+main {
+    min-height: 400px;
+}
+
+footer {
+    background-color: var(--blue);
+}
+.logo {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 356px;
+}
+.logo_footer {
+    display: block;
+    margin: auto;
+    height: 183px;
+}
+h1 {
+    font-size: 96px;
+    line-height: 105px;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+}
+h2 {
+    color: var(--blue);
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    color: var(--blue);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.header-p {
+    font-size: 18px;
+    max-width: 635px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.btn {
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: block;
+    width: 260px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-white {
+    background-color: white;
+    color: var(--blue);
+    font-size: 18px;
+}
+.btn-blue {
+    color: white;
+    background-color: var(--blue);
+    font-size: 18px;
+}
+.about_p {
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+}
+.content {
+    max-width: 1400px;
+    margin: auto;
+}
+.box {
+    width: 33.33333%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 20px;
+}
+.clear {
+    clear: both;
+}
+.content p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+.vector_2 {
+    float: right;
+    margin-top: -20px;
+}
+.orange-box {
+    width: 96%;
+    max-width: 1136px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    border-radius: 43px;
+    background-color: #FE9900;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.subscribe_title {
+    font-size: 64px;
+    line-height: 68px;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    color: var(--blue);
+}
+.orange-box p {
+    max-width: 628px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 20px;
+}
+.subscribe_form {
+    max-width: 546px;
+    margin: 20px auto;
+    height: 60px;
+    position: relative;
+    margin-top: 60px;
+}
+.subscribe_form input {
+    display: block;
+    border: none;
+    outline: none;
+    background: white;
+    height: 60px;
+    border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 120px;
+    font-size: 20px;
+}
+.subscribe_form input::placeholder {
+   font-size: 16px;
+}
+.subscribe-btn {
+    position: absolute;
+    right: 4px;
+    background: var(--blue);
+    height: 52px;
+    top: 4px;
+    border-radius: 26px;
+    width: 102px;
+    cursor: pointer;
+}
+.starh2 {
+    position: absolute;
+}
+.star1 {
+    position: absolute;
+    left: -100px;
+}
+.star2 {
+    position: absolute;
+    right: -200px;
+    top: 30px;
+}
+.star3 {
+    position: absolute;
+    left: -120px;
+    bottom: -40px;
+}
+.vector2 {
+    position: absolute;
+    right: -50px;
+    bottom:-20px
+}
+.relative {
+    position: relative;
+}
+.st {
+    position: absolute;
+}
+.st1 {
+    left: -60px;
+    bottom: -5px;
+}
+.st2 {
+    left: 200px;
+    top: 20px;
+}
+.st3 {
+    right: 160px;
+    top: 230px;
+}
+.st4 {
+    right: 20px;
+    top: 5px;
+}
+.message {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
