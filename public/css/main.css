@@ -245,3 +245,75 @@ h3 {
     font-size: 18px;
     font-weight: bold;
 }
+
+
+
+@media(max-width: 1400px){
+    .box {
+        width: 50%;
+    }
+    .about_p {
+        padding: 0 20px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .box {
+        width: 100%;
+    }
+    .content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .vector_2 {
+        width: 250px;
+    }
+    .about_p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .vector2 {
+        width: 200px;
+    }
+    .header-p {
+        padding: 0 20px;
+    }
+    .star1 {
+        left: -50px;
+    }
+    .star3, .star2 {
+        display: none;
+    }
+    .st1, .st3, .st4 {
+        display: none;
+    }
+    .subscribe_title {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .subscribe_form {
+        width: 90%;
+    }
+    .orange-box {
+        height: auto;
+    }
+    .orange-box p {
+        width: 90%;
+    }
+    .st2 {
+    left: -10px;
+    }
+}
