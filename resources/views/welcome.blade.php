@@ -84,6 +84,13 @@
         </main>
         <footer>
             <img src="images/logo.png" class="logo_footer">
+            <center>
+                <a href="https://www.instagram.com/compassprepschool/" target="_blank"><img src="images/insta.png" class="social"></a>
+                <a href="https://www.facebook.com/people/Compass-Prep-School/61550969602936/" target="_blank"><img src="images/fb.png" class="social"></a>
+            </center>
+            <br>
+            <center style="font-size: 14px; color: white;">&copy; <?=date("Y")?> | All rights reserved.</center>
+            <br><br>
         </footer>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
