@@ -248,6 +248,69 @@ h3 {
 .social {
     margin: 0 4px;
 }
+.form_two {
+    max-width: 780px;
+    padding:30px 5px;
+    margin: auto;
+    min-height: 60px;
+}
+.w40 {
+    width: 40%;
+    float: left;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.w20 {
+    width: 20%;
+    float: left;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.form_two input {
+    display: block;
+    border: none;
+    outline: none;
+    background: white;
+    height: 60px;
+    border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.form_two input::placeholder {
+    font-size: 16px;
+}
+.btn_two {
+    display: block;
+    border: none;
+    outline: none;
+    background: #FE9900;
+    height: 60px;
+    border-radius: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    color: var(--blue);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -318,5 +381,10 @@ h3 {
     }
     .st2 {
     left: -10px;
+    }
+    .w40, .w20 {
+        float: none;
+        margin-bottom: 20px;
+        width: 100%;
     }
 }

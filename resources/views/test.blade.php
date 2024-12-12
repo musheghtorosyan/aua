@@ -11,52 +11,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet" />
     </head>
-    <body>
+    <body style="background: var(--blue)">
         <header>
             <a href="{{ route('index') }}"><img src="images/logo.png" class="logo"></a>
-            <h1 class="montserrat-700">Find the Right Path to<br><span class="relative">
-                    Education
-                    <img src="images/starh2.png" class="star1">
+            <h1 class="montserrat-700">
+                Discover Your
+                <span class="relative">
+                    Potential!
                     <img src="images/vector_1.png" class="vector2">
-                    <img src="images/starh2.png" class="star2">
                 </span>
                     <br>
-                <span class="relative">with Compass
-                <img src="images/starh2.png" class="star3">
-                </span>
+                Take the First Step with<br>Compass!
             </h1>
-            <p class="header-p montserrat-400">Welcome to Compass, where we empower learners to navigate their academic journey, achieve excellence, and unlock a world of opportunities. Let us guide you toward success and inspire your path to a brighter future.</p>
+            <p class="header-p montserrat-400">Welcome to the first step in your academic journey! Please provide your phone number and email address to access your test. Your information is securely stored and will only be used to send your test results and updates regarding your progress. Let's get started and see where your strengths lie!</p>
+            <form method="post" class="form_two">
+                @csrf
+                <div class="w40"><input type="text" placeholder="Email"></div>
+                <div class="w40"><input type="text" placeholder="Tel."></div>
+                <div class="w20"><button class="btn_two">NEXT</button></div>
+                <p class="clear"></p>
+            </form>
+
         </header>
-        <main>
-            <section>
-                <h2 class="montserrat-700"><span>Test Box<img src="images/starh2.png" class="starh2"></span></h2>
-            </section>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        </main>
-        <footer>
-            <img src="images/logo.png" class="logo_footer">
-            <center>
-                <a href="https://www.instagram.com/compassprepschool/" target="_blank"><img src="images/insta.png" class="social"></a>
-                <a href="https://www.facebook.com/people/Compass-Prep-School/61550969602936/" target="_blank"><img src="images/fb.png" class="social"></a>
-            </center>
-            <br>
-            <center style="font-size: 14px; color: white;">&copy; <?=date("Y")?> | All rights reserved.</center>
-            <br><br>
-        </footer>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     </body>

@@ -15,6 +15,10 @@ class MainController extends Controller
         return view('test');
     }
 
+    public function start(){
+        return view('start');
+    }
+
     public function subscribe(Request $request){
         if (!filter_var($request->email, FILTER_VALIDATE_EMAIL)) {
             echo 'Email is incorrect';
