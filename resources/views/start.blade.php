@@ -14,9 +14,24 @@
     <body>
         <header style="background: white">
             <a href="{{ route('index') }}"><img src="images/logo_black.png" class="logo"></a>
-
-
         </header>
+
+
+        @foreach ($questions as $question)
+            <div class="question">
+                <div>
+                    <p><strong>Question 1:</strong> {{ $question->question1 }}</p>
+                    <p><strong>Question 2:</strong> {{ $question->question2 }}</p>
+                    <p><strong>Question 3:</strong> {{ $question->question3 }}</p>
+                    <p><strong>Question 4:</strong> {{ $question->question4 }}</p>
+                </div>
+            </div>
+        @endforeach
+
+
+
+
+
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
     </body>

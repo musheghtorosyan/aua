@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Question;
 use App\Models\Subscription;
 use Illuminate\Http\Request;
 
@@ -16,7 +17,8 @@ class MainController extends Controller
     }
 
     public function start(){
-        return view('start');
+        $questions = Question::all();
+        return view('start', compact('questions'));
     }
 
     public function subscribe(Request $request){
