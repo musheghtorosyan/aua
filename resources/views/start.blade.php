@@ -12,22 +12,29 @@
         <link href="css/main.css" rel="stylesheet" />
     </head>
     <body>
-        <header style="background: white">
+        <header style="background: white; padding-bottom: 0">
             <a href="{{ route('index') }}"><img src="images/logo_black.png" class="logo"></a>
+            <div id="timer">30 <sub>minutes</sub></div>
+
         </header>
+        <div id="results"></div>
+        <main>
 
-
+            @php $q = 0; @endphp
         @foreach ($questions as $question)
-            <div class="question">
-                <div>
-                    <p><strong>Question 1:</strong> {{ $question->question1 }}</p>
-                    <p><strong>Question 2:</strong> {{ $question->question2 }}</p>
-                    <p><strong>Question 3:</strong> {{ $question->question3 }}</p>
-                    <p><strong>Question 4:</strong> {{ $question->question4 }}</p>
+            <div class="question question{{++$q}}">
+                <div class="question_item">
+                    <p><strong>Question {{$q}}:</strong> {!! $question->answer1 !!}</p>
+                    <p><strong>{!! $question->answer2 !!}</strong></p>
+                    <p><label><strong><input type="radio" name="ch{{$q}}"> A:</strong> {{ $question->question1 }}</label></p>
+                    <p><label><strong><input type="radio" name="ch{{$q}}"> B:</strong> {{ $question->question2 }}</label></p>
+                    <p><label><strong><input type="radio" name="ch{{$q}}"> C:</strong> {{ $question->question3 }}</label></p>
+                    <p><label><strong><input type="radio" name="ch{{$q}}"> D:</strong> {{ $question->question4 }}</label></p>
                 </div>
+                <dic class="next_btn next_btn{{$q}}">Next</dic>
             </div>
         @endforeach
-
+        </main>
 
 
 

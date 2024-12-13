@@ -26,8 +26,8 @@
             <p class="header-p montserrat-400">Welcome to the first step in your academic journey! Please provide your phone number and email address to access your test. Your information is securely stored and will only be used to send your test results and updates regarding your progress. Let's get started and see where your strengths lie!</p>
             <form method="post" class="form_two">
                 @csrf
-                <div class="w40"><input type="text" placeholder="Email"></div>
-                <div class="w40"><input type="text" placeholder="Tel."></div>
+                <div class="w40"><input type="email" placeholder="Email" required></div>
+                <div class="w40"><input type="number" placeholder="Tel." required></div>
                 <div class="w20"><button class="btn_two">NEXT</button></div>
                 <p class="clear"></p>
             </form>
