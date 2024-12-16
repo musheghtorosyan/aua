@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <img src="images/logo.png" class="logo">
+            <img src="images/logo.svg" class="logo">
             <h1 class="montserrat-700">Find the Right Path to<br><span class="relative">
                     Education
                     <img src="images/starh2.png" class="star1">
@@ -36,32 +36,74 @@
             <section class='content'>
                     <div class="box">
                         <h3>01<br>General English Courses</h3>
-                        <p class="montserrat-600">Our General English courses are tailored to improve your reading, writing, speaking, and listening skills. Whether you're a beginner or looking to refine your fluency, our comprehensive curriculum focuses on real-world communication, grammar mastery, and vocabulary building.</p>
+                        <p class="montserrat-600">Our General English courses are tailored to improve your reading, writing, speaking, and
+listening skills. Whether you're a beginner or looking to refine your fluency, our comprehensive
+curriculum focuses on real-world communication, grammar mastery, and vocabulary building.
+</p>
                         <img src="images/vector_2.png" class="vector_2">
                     </div>
                     <div class="box">
-                        <h3>02<br>General Math Course</h3>
-                        <p class="montserrat-600">Designed to strengthen mathematical understanding, our General Math courses cover essential concepts for all levels. From basic arithmetic to advanced problem-solving, we provide a solid foundation to help students excel in academics and beyond.</p>
+                        <h3>02<br>General Math Courses</h3>
+                        <p class="montserrat-600">Designed to strengthen mathematical understanding, our General Math courses cover essential
+concepts for all levels. From basic arithmetic to advanced problem-solving, we provide a solid
+foundation to help students excel in academics and beyond.</p>
                         <img src="images/vector_2.png" class="vector_2">
                     </div>
                     <div class="box">
-                        <h3>03<br>IELTS Preparation</h3>
-                        <p class="montserrat-600">Our IELTS preparation course equips students with the strategies and skills to succeed in all four sections of the test: Listening, Reading, Writing, and Speaking. With practice tests, expert guidance, and personalized feedback, we ensure students achieve their desired scores.</p>
+                        <h3>03<br> IELTS Preparation</h3>
+                        <p class="montserrat-600">Our IELTS preparation course equips students with the strategies and skills to succeed in all
+four sections of the test: Listening, Reading, Writing, and Speaking. With practice tests, expert
+guidance, and personalized feedback, we ensure students achieve their desired scores.
+</p>
                         <img src="images/vector_2.png" class="vector_2">
                     </div>
                     <div class="box">
                         <h3>04<br>TOEFL Preparation</h3>
-                        <p class="montserrat-600">Focused on helping students master the TOEFL exam, this course emphasizes academic English skills such as essay writing, note-taking, and effective reading comprehension. Our structured approach boosts confidence and readiness for test day.</p>
+                        <p class="montserrat-600">Focused on helping students master the TOEFL exam, this course emphasizes academic
+English skills such as essay writing, note-taking, and effective reading comprehension. Our
+structured approach boosts confidence and readiness for test day.
+</p>
                         <img src="images/vector_2.png" class="vector_2">
                     </div>
                     <div class="box">
                         <h3>05<br>SAT and ACT Preparation</h3>
-                        <p class="montserrat-600">We specialize in preparing students for SAT and ACT exams with tailored lessons on critical reading, mathematics, and writing. Practice exams and targeted strategies help students maximize their scores and stand out in college applications.</p>
+                        <p class="montserrat-600">We specialize in preparing students for SAT and ACT exams with tailored lessons on critical
+reading, mathematics, and writing. Practice exams and targeted strategies help students
+maximize their scores and stand out in college applications.</p>
                         <img src="images/vector_2.png" class="vector_2">
                     </div>
                     <div class="box">
-                        <h3>06<br>GMAT & GRE Preparation</h3>
-                        <p class="montserrat-600">Our IELTS preparation course equips students with the strategies and skills to succeed in all four sections of the test: Listening, Reading, Writing, and Speaking. With practice tests, expert guidance, and personalized feedback, we ensure students achieve their desired scores.</p>
+                        <h3>06<br>GMAT and GRE Preparation</h3>
+                        <p class="montserrat-600">Our GMAT and GRE courses are designed for individuals aiming for graduate school. We focus
+on analytical writing, quantitative reasoning, and verbal skills, providing the tools and strategies
+needed to excel in these competitive exams.</p>
+                        <img src="images/vector_2.png" class="vector_2">
+                    </div>
+                    <div class="box">
+                        <h3>07<br>Academic Support and University Applications</h3>
+                        <p class="montserrat-600">Compass Prep School provides end-to-end support for students applying to top universities
+worldwide. From crafting compelling personal statements to navigating the application process,
+our experienced counselors guide students every step of the way, ensuring their unique
+strengths and aspirations shine through.
+</p>
+                        <img src="images/vector_2.png" class="vector_2">
+                    </div>
+                    <div class="box">
+                        <h3>08<br>Career Guidance Assistance</h3>
+                        <p class="montserrat-600">We help students choose the right career path with personal advice and support. Our program
+includes career planning, writing resumes, preparing for interviews, and picking the best
+university for them. Through one-on-one talks and workshops, we help students find their
+strengths and reach their goals, whether they want to start working or keep studying.</p>
+                        <img src="images/vector_2.png" class="vector_2">
+                    </div>
+                    <div class="box">
+                        <h3>09<br>Volunteering and Internship Help</h3>
+                        <p class="montserrat-600">We connect students with volunteer projects and internships to gain real-world experience.
+These opportunities help students grow, build skills, and strengthen their resumes while making
+a positive impact in their communities.
+At Compass Prep School, we are committed to your success. Whether you’re pursuing
+academic excellence, improving your skills, or taking steps toward your dream university, we are
+here to guide you on your journey</p>
                         <img src="images/vector_2.png" class="vector_2">
                     </div>
                     <p class="clear"></p>

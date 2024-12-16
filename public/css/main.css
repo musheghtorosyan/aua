@@ -50,7 +50,7 @@ footer {
     display: block;
     margin: auto;
     width: 100%;
-    max-width: 356px;
+    max-width: 256px;
 }
 .logo_footer {
     display: block;
@@ -341,7 +341,7 @@ h3 {
 #timer {
     float: right;
     color: #4F46CA;
-    position: fixed;
+    position: absolute;
     right: 50px;
     top: 80px;
     font-size: 60px;
@@ -358,8 +358,23 @@ h3 {
     font-weight: bold;
 }
 
+.which_test {
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    cursor: pointer;
+}
 
-
+.active_test {
+    background-color: #FE9900;
+    color: white;;
+}
 
 
 

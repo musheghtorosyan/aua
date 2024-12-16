@@ -13,7 +13,7 @@
     </head>
     <body style="background: var(--blue)">
         <header>
-            <a href="{{ route('index') }}"><img src="images/logo.png" class="logo"></a>
+            <a href="{{ route('index') }}"><img src="images/logo.svg" class="logo"></a>
             <h1 class="montserrat-700">
                 Discover Your
                 <span class="relative">
@@ -24,10 +24,18 @@
                 Take the First Step with<br>Compass!
             </h1>
             <p class="header-p montserrat-400">Welcome to the first step in your academic journey! Please provide your phone number and email address to access your test. Your information is securely stored and will only be used to send your test results and updates regarding your progress. Let's get started and see where your strengths lie!</p>
+           
+           
             <form method="post" class="form_two">
+
+            <div class="which_test active_test" onclick="getTest(1)">SAT Verbal TEST</div>
+            <div class="which_test" onclick="getTest(2)">TOEFL TEST</div>
+            <div class="which_test" onclick="getTest(3)">SATT TEST</div>
+
                 @csrf
-                <div class="w40"><input type="email" placeholder="Email" required></div>
-                <div class="w40"><input type="number" placeholder="Tel." required></div>
+                <input id="test_value" name="test" type="hidden" value="1">
+                <div class="w40"><input name="email" type="email" placeholder="Email" required></div>
+                <div class="w40"><input name="phone" type="number" placeholder="Tel." required></div>
                 <div class="w20"><button class="btn_two">NEXT</button></div>
                 <p class="clear"></p>
             </form>
